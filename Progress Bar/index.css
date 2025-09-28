@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(231, 173, 103);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border-radius: 15px;
+    width: 550px;
+    height: s50px;
+    background-color: white;
+    padding: 1rem;
+}
+
+.container progress,meter{
+    width: 100%;
+}
+
